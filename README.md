@@ -1,4 +1,5 @@
 ========= An Exercise for Bootcamp 2015 (Equal Experts) ================
+
 This exercise is designed to explore functional programming using Java 8.
 
 Project setup -
