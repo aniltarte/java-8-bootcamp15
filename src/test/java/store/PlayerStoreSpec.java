@@ -1,7 +1,6 @@
 package store;
 
 import org.junit.Test;
-import stats.Player;
 
 import java.util.List;
 
@@ -10,6 +9,6 @@ public class PlayerStoreSpec {
     @Test
     public void itPrintsAllPlayers() throws Exception{
         List<Player> players = new PlayerStore().allPlayers();
-        players.stream().forEach(p -> System.out.println(p.name));
+        players.stream().forEach(p -> System.out.println(p.getName()));
     }
 }
